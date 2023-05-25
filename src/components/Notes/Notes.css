@@ -1,0 +1,53 @@
+.notes {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin:0 40px;
+    cursor: pointer;
+  }
+  .note {
+    background: white;
+    width: 240px;
+    border: 1px solid #e0e1e0;
+    border-radius: 8px;
+    position: relative;
+    margin: 10px;
+  }
+  .note .title {
+    width: 100%;
+    margin: 15px 0 0 15px;
+  }
+  .note .text {
+    width: 100%;
+    margin: 10px 0 0 15px;
+  }
+  .note .note-footer {
+    display: flex;
+    margin-top: 15px;
+    padding: 0;
+    justify-content: center;
+     visibility: hidden;
+  }
+  .note-footer i {
+    padding: 8px;
+    font-weight: 500;
+    font-size: 17px;
+    color: #5f6368;
+  }
+  .note .check-circle {
+    position: absolute;
+    left: -10px;
+    top: -10px;
+    visibility: visible;
+  
+  }
+  .note:hover {
+    box-shadow: 0 1px 2px 0 rgb(60 64 67 / 30%), 0 2px 6px 2px rgb(60 64 67 / 15%);
+  
+  }
+  .hover:hover {
+    background: #e9e6e6;
+    color: black;
+    border-radius: 50%;
+    cursor: pointer;
+  }

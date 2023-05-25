@@ -1,0 +1,142 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    height: 64px;
+    border-bottom: 1px solid #dadce0;
+  }
+  .logo-section {
+    display: flex;
+    align-items: center;
+  }
+  .nav-items {
+    display: flex;
+    align-items: center;
+    height: 64px;
+    padding: 8px;
+  }
+  .nav-more {
+    padding: 12px 12px 10px 12px;
+    margin: 0 4px;
+    cursor: pointer;
+  }
+  .nav-more svg {
+    width: 25px;
+    height: 25px;
+    fill:#767676;
+  }
+  .nav-logo {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+  }
+  .nav-logo img {
+    height: 40px;
+    width: 45px;
+    margin-bottom: 4px;
+    padding-right: 4px;
+  }
+  .nav-logo a {
+    text-decoration: none;
+  }
+  .nav-logo span {
+    display: flex;
+    align-items: center;
+    color:#767676;
+    font-size: 21px;
+    font-weight: 500;
+    vertical-align: middle;
+    top:-1.5px ;
+    cursor: pointer;
+  
+  }
+  /* SEARCH BAR */
+  .search form {
+    display: flex;
+    align-items: center;
+    height: 49px;
+    width: 720px;
+    background-color: rgb(241 243 244);
+    border-radius: 8px;
+    margin-left: 80px;
+    margin-right: 49px;
+    opacity: 1;
+  }
+  .question svg {
+    width: 24px;
+    height: 24px;
+    fill:#767676;
+    
+  }
+  
+  .question {
+    border: none;
+    padding: 0px 5px;
+    margin:0px 3px;
+    background-color: rgb(241 243 244);
+  }
+  .circle{
+    padding: 8px 10px;
+  }
+  .question :hover {
+    background-color: rgb(226, 223, 223);
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  .to-search input {
+    width: 600px;
+    height: 40px;
+    outline: none;
+    border: none;
+    background-color: rgb(241 243 244);
+    font-size: 16px;
+  }
+  .settings-section{
+    display: flex;
+    margin-left: 70px;
+  }
+  
+  .material-symbols-outlined {
+    font-size: 24px;
+    color: #767676;
+    cursor: pointer;
+    padding: 10px;
+  
+  }
+  .account-profile{
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 4px;
+  
+  }
+  .g-options {
+    padding: 8px;
+  }
+  .grid {
+    padding: 4px 2px 4px 0px;
+  }
+  .grid svg {
+    width: 24px;
+    height: 24px;
+    fill:#767676;
+  }
+  
+  .personal-login {
+    padding: 4px 2px 4px 2px;
+  } 
+  .login-details {
+    padding: 4px;
+  }
+  .login-details img {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+  }
+  .hover:hover {
+    background: #e9e6e6;
+    color: black;
+    border-radius: 50%;
+    cursor: pointer;
+  }
